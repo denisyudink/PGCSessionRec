@@ -1,0 +1,9 @@
+The datasets used in this research can be found at the following sources:
+
+REES46: An e-commerce dataset from a multi-category store available on Kaggle (https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) and the REES46 platform (https://rees46.com).
+
+RETAILROCKET: An e-commerce dataset from the company Retail Rocket, available on Kaggle (https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset/).
+
+GLOBO: A dataset containing user interaction logs (page views) from a news portal. It was provided by Globo.com and is available from the research papers by MOREIRA, G. de S. P.; FERREIRA, F.; CUNHA, A. M. da., 'News session-based recommendations using deep neural networks,' and MOREIRA, G. D. S. P.; JANNACH, D.; CUNHA, A. M. D., 'Contextual hybrid session-based news recommendation with recurrent neural networks.'
+
+LASTFM: A music dataset that includes the entire listening history of users, available from CELMA, O. in 'Music Recommendation and Discovery in the Long Tail.'
