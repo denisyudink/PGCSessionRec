@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 
 from math import sqrt
-from ordered_set import OrderedSet
 
 class ItemKNN:
     # Initialize the class

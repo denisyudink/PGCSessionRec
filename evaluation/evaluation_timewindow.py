@@ -27,7 +27,7 @@ def evaluate(df, item_column_name, session_column_name, timestamp_column, window
     mrr_scores = []
     hit_rates = []
 
-    if i == 1:
+    if model == 1:
     	# Initialize the ItemKNN model
     	knn = ItemKNN(k=20, session_column=session_column_name, item_column=item_column_name, timestamp_column=timestamp_column)
     elif model == 2:
@@ -81,7 +81,7 @@ def evaluate(df, item_column_name, session_column_name, timestamp_column, window
 
         test_sessions = test_append[~test_append[session_column_name].isin(unique_sessions)]
 
-        if limit == True
+        if limit == True:
             print('Size of train sessions antes: ', len(train_sessions))
             min_timestamp = df[timestamp_column].min()
             print(min_timestamp)
